@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECD2E6"
+
+    tools:context=".DetailActivity">
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+    <ImageView
+        android:id="@+id/imgTacGia"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/tenTacGiaDeTal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên tác giả"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+    <ListView
+        android:id="@+id/listViewDeTail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
